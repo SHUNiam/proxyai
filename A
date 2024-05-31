@@ -1,0 +1,12 @@
+git clone https://github.com/your-username/simple-proxy-server.git
+cd simple-proxy-server
+
+# 作成したPythonファイルをリポジトリにコピーします
+cp /path/to/proxy_server.py .
+
+# Gitリポジトリに追加してコミットします
+git add proxy_server.py
+git commit -m "Add simple proxy server"
+
+# リポジトリにプッシュします
+git push origin main
